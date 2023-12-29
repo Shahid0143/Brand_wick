@@ -21,7 +21,7 @@ app.listen(PORT, async () => {
     console.log(`Server is listening on port ${PORT}`);
   } catch (err) {
     console.error(err);
-    console.log("Something went wrong while starting the server");
+    console.log("Something went wrong while starting the servers");
   }
 }
 )
